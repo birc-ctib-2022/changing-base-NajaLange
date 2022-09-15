@@ -40,9 +40,7 @@ def change_to_base(n: int, b: int) -> str:
     lst = []
     while n >= b: 
         lst.append(digits[n % b])
-        print(n)
         n = n // b 
-        print(">", n)
     else: 
         lst.append(digits[n % b])
 
